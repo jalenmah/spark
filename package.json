@@ -17,8 +17,6 @@
     "watch": "rbxtsc -w",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "types": "out/index.d.ts",
   "files": [

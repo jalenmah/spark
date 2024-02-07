@@ -9,7 +9,7 @@ export declare class InputMap<T = undefined> {
 	clone(): InputMap;
 	get(action: ActionKey<T>): Input[];
 	getByDevices(action: ActionKey<T>, devices: Device[]): Input[];
-	insert(action: ActionKey<T>, ...inputs: Input[]): InputMap;
+	insert(action: ActionKey<T>, ...inputs: Input[]): InputMap<T>;
 	remove(action: ActionKey<T>, input: Input): void;
 	serialize(): buffer;
 

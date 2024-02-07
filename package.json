@@ -2,7 +2,7 @@
   "name": "@rbxts/spark",
   "version": "1.0.0",
   "description": "Spark is an input-action manager for Roblox.",
-  "main": "src/index.ts",
+  "main": "out/init.lua",
   "directories": {
     "doc": "docs",
     "example": "examples",

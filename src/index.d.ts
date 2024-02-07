@@ -1,4 +1,8 @@
+import { Actions } from "./Actions";
+import { InputMap } from "./InputMap";
+import { InputState } from "./InputState";
 import { Multiply2d } from "./Multiply2d";
+import { Rebind } from "./Rebind";
 import { VirtualAxis } from "./VirtualAxis";
 import { VirtualAxis2d } from "./VirtualAxis2d";
 
@@ -14,3 +18,5 @@ export type Input =
 export type Input2d = Enum.UserInputType | VirtualAxis2d<{}>;
 
 export type Device = "Keyboard" | "Mouse" | "Gamepad";
+
+export { Actions, InputMap, InputState, Rebind, VirtualAxis, VirtualAxis2d };

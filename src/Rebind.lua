@@ -2,7 +2,7 @@ local UserInputService = game:GetService("UserInputService")
 
 local getDeviceFromInput = require(script.Parent.getDeviceFromInput)
 local Inputs = require(script.Parent.Inputs)
-local Promise = require(script.Parent.Parent.Promise)
+local Promise = require(game.ReplicatedStorage["rbxts_include"].Promise) --require(script.Parent.Parent.Promise)
 
 --[=[
     @type Device "Keyboard" | "Mouse" | "Gamepad"

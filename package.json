@@ -8,6 +8,7 @@
     "example": "examples",
     "test": "test"
   },
+  "repository": "git://github.com/sporblord/spark.git",
   "scripts": {
     "build": "rbxtsc",
     "watch": "rbxtsc -w",

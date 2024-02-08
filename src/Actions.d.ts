@@ -12,7 +12,7 @@ export declare class Actions<T extends readonly string[]> {
 	normalizedAxis2d(action: T[number]): Vector2;
 	pressed(action: T[number]): boolean;
 	released(action: T[number]): boolean;
-	update(inputState: InputState, inputMap: InputMap): void;
+	update(inputState: InputState, inputMap: InputMap<Actions<T>>): void;
 	value(action: T[number]): number;
 
 	constructor(actions: T);
